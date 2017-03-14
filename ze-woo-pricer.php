@@ -11,3 +11,14 @@
  *
  * @package         Ze_Woo_Pricer
  */
+
+/* CHECK IF WOOCOMMERCE IS ACTIVE */
+/* CHECK IF WOOCOMMERCE IS ACTIVE */
+ **/
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+
+    
+
+}
+/* END CHECK IF WOOCOMMERCE IS ACTIVE */
+/* END CHECK IF WOOCOMMERCE IS ACTIVE */
