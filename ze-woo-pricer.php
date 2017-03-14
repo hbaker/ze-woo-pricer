@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 /**
  * Plugin Name:     Ze Woo Pricer
- * Plugin URI:      https://hoseabaker.com
+ * Plugin URI:      
  * Description:     A price per square footage plugin for WooCommerce
  * Author:          Hosea Baker
  * Author URI:      https://hoseabaker.com
@@ -15,7 +15,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @package         Ze_Woo_Pricer
  */
 
-// CHECK IF WOOCOMMERCE IS ACTIVE
+/* CHECK IF WOOCOMMERCE IS ACTIVE */
+/* CHECK IF WOOCOMMERCE IS ACTIVE */
  **/
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
 
@@ -31,5 +32,5 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
     // END ADD "PER SQUARE FOOT" AFTER EACH PRODUCT PRICE THROUGHOUT THE SHOP
 
 }
-// END CHECK IF WOOCOMMERCE IS ACTIVE
-// END CHECK IF WOOCOMMERCE IS ACTIVE
+/* END CHECK IF WOOCOMMERCE IS ACTIVE */
+/* END CHECK IF WOOCOMMERCE IS ACTIVE */
