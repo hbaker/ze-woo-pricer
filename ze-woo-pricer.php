@@ -16,6 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 
 // CHECK IF WOOCOMMERCE IS ACTIVE
+ **/
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
 
     // ADD "PER SQUARE FOOT" AFTER EACH PRODUCT PRICE THROUGHOUT THE SHOP
